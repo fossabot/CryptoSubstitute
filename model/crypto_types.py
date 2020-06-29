@@ -23,7 +23,7 @@ class BitcoinCrypto(UnspecifiedCrypto):
         self.regex_P2SH = "^[3][a-km-zA-HJ-NP-Z1-9]{25,34}$"
         self.regex_Bech32 = """bc(0([ac-hj-np-z02-9]{39}|[ac-hj-np-z02-9]{59})|1[ac-hj-np-z02-9]{8,87})"""
 
-    def recognize_and_set_format(self, wallet: str):
+    def recognize_and_set_format(self, wallet: str): #TODO add controller entry for this one
         if(re.search(self.regex_P2PKH, wallet)):
             return f"{wallet} : P2PKH"
         elif(re.search(self.regex_P2SH, wallet)):
