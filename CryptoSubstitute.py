@@ -12,7 +12,7 @@ if __name__ == "__main__":
     print("Clipboard was printed above for debug purposes! Will be removed in next versions.")  #FIXME      for debug purposes
     print("======================================================")                             #FIXME -----------------------------
 
-    print(ClipboardController.check_wallet_format("3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy"))
+    print(ClipboardController.check_wallet_format("You_can_enter_any_wallet_here"))
 
     #TODO enter your addres, leave blank if you don't want to use this one
     #TODO repeat step from above X times, depending on currency(-ies) you want to sue
