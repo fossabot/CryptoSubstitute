@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width=512>  
+  <img src="logo.png" width=512>
 </p>
 
 # CryptoSubstitute
